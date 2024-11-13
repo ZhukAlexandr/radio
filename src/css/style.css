@@ -89,12 +89,16 @@ h1 {
     color: #fff;
 }
 
+.promo .btn{
+    margin: 75px auto;
+}
+
 .btn{
     display: block;
-    margin: 75px auto;
+    
+    padding: 50px, 50px;
     border-radius: 4px;
     background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
-    
     font-weight: 500;
     font-size: 21px;
     text-transform: uppercase;
@@ -103,6 +107,7 @@ h1 {
     min-width: 315px;
     min-height: 72px;
     text-shadow: -1px -1px 0 0 rgba(0, 0, 0, 0.22);
+    cursor: pointer;
 }
 .promo_more-img{
     display: block;
