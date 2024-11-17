@@ -1,8 +1,28 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+    margin: 0;
+  }
+  
+  ol[role="list"], ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+  img {
+    display: block;
+    max-inline-size: 100%;
+  }
+
 
 .container {
     max-width: 1140px;
@@ -29,7 +49,6 @@
 }
 
 .logo__img {
-    display: block;
     margin: 0 auto;
 }
 
@@ -116,7 +135,6 @@ h1 {
     border: none;
 }
 .promo_more-img{
-    display: block;
     margin: 10px auto;
 }
 
@@ -264,7 +282,6 @@ section.gift{
 }
 
 .img_gift{
-    display: block;
     margin: 0 auto;
 }
 
